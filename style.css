@@ -1,0 +1,17 @@
+:root {
+    --active: rgb(37, 37, 172);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --active: rgb(169, 197, 243);
+    }
+
+    .active {
+        color: var(--active);
+    }
+}
+
+.active {
+    color: var(--active);
+}
