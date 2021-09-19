@@ -15,3 +15,7 @@
 .active {
     color: var(--active);
 }
+
+p {
+    justify-content: justify;
+}
